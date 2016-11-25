@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMapConfig PUBLIC "-//iBATIS.com//DTD SQL Map Config 2.0//EN"
+    "http://www.ibatis.com/dtd/sql-map-config-2.dtd">
+
+<sqlMapConfig>
+    <settings useStatementNamespaces="true"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/base/configure/entity/ConfigureEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/base/data/entity/CommandEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/base/data/entity/EventEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/base/data/entity/FlowEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/base/data/entity/IstAppEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/base/data/entity/LacEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/base/data/entity/LogEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/base/data/entity/MediaEntity.xml"/>
+  <!-- -->   
+    <sqlMap resource="META-INF/com/broadsense/iov/base/data/entity/TravelEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/base/dev/entity/DeviceEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/base/dev/entity/DeviceExtEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/base/dev/entity/DeviceHistoryEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/base/dev/entity/DeviceLicEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/base/dev/entity/DeviceOnlineEntity.xml"/>
+    <!--  -->
+    <sqlMap resource="META-INF/com/broadsense/iov/base/res/entity/ResourceEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/base/upgrade/entity/UpgradeEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/lbs/entity/CellLacEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/lbs/entity/GpsLacEntity.xml"/>
+    <sqlMap resource="META-INF/com/broadsense/iov/lbs/entity/RegionEntity.xml"/> 
+
+    
+    
+    
+    
+    
+    
+    
+
+</sqlMapConfig>
